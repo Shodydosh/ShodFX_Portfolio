@@ -15,20 +15,20 @@ function Home() {
             </Head>
             <div className="p-relative d-flex align-items-center" style={{height:"100vh"}}>
                 <PortfolioSwiper grabCursor
-                                 desktop={{spaceBetween: 50, slidesPerView: 1.5}}
-                                 tablet={{spaceBetween: 0, slidesPerView: 1.25}}
-                                 mobile={{spaceBetween: 0, slidesPerView: 1}}
+                    desktop={{spaceBetween: 50, slidesPerView: 1.5}}
+                    tablet={{spaceBetween: 0, slidesPerView: 1.25}}
+                    mobile={{spaceBetween: 0, slidesPerView: 1}}
 
-                                 stylePortfolio="work-section"
-                                 className="text-center v-dark-head title-inherit title-h2"
-                                 centeredSlides loop
-                                 blur
-                                 parallax
-                                 speed={1200}
-                                 watchSlidesProgress
-                                 loopedSlides={2}
-                                 parallaxImage={{"data-swiper-parallax-scale": "0.85"}}
-                                 parallaxContent={{"data-swiper-parallax-opacity": "0"}}
+                    stylePortfolio="work-section"
+                    className="text-center v-dark-head title-inherit title-h2"
+                    centeredSlides loop
+                    blur
+                    parallax
+                    speed={1200}
+                    watchSlidesProgress
+                    loopedSlides={2}
+                    parallaxImage={{"data-swiper-parallax-scale": "0.85"}}
+                    parallaxContent={{"data-swiper-parallax-opacity": "0"}}
                 >
                     <SwiperPagination className={`justify-content-center dsn-container mt-50`}/>
                 </PortfolioSwiper>

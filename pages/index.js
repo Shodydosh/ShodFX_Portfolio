@@ -126,8 +126,9 @@ function Home() {
             </div>
             {/*End Portfolio*/}
 
+            {/* Testimonial */}
             {/*Start testimonial Section*/}
-            <div className="section-margin" data-dsn-title="Testimonials">
+            {/* <div className="section-margin" data-dsn-title="Testimonials">
                 <Testimonial className="container section-margin" title="Feedback from our clients."
                              skin={["testimonials-half"]}
                              backgroundColor={"background-section"}
@@ -139,13 +140,13 @@ function Home() {
                 >
                     <SwiperPagination className={`justify-content-between dsn-container mt-30`}/>
                 </Testimonial>
-            </div>
+            </div> */}
 
 
             {/*End testimonial Section*/}
 
             {/*Start box vertical Section*/}
-            <section className="box-gallery-vertical container section-margin" data-dsn-title="Our Services">
+            {/* <section className="box-gallery-vertical container section-margin" data-dsn-title="Our Services">
                 <DsnGrid col={2} colTablet={1} colGap={0} rowGap={0} rowGapTablet={0} rowGapMobile={0}>
                     <div className="p-relative mb-lg-section">
                         <div className="box-im w-100 h-100 p-absolute">
@@ -163,7 +164,7 @@ function Home() {
                     <div className="p-relative pt-lg-section">
                         <div className="box-info h-100 box-padding background-section ">
                             <DsnGrid className="box-info-inner" col={1} colGap={0}>
-                                <TitleCover>Eremia</TitleCover>
+                                <TitleCover>Shod.fx</TitleCover>
                                 <TitleSection
                                     className={"text-uppercase"}
                                     description={"OUR PURPOSE"}
@@ -196,11 +197,11 @@ function Home() {
                         </div>
                     </div>
                 </DsnGrid>
-            </section>
+            </section> */}
             {/*End box vertical Section*/}
 
-            {/*Start Blog*/}
-            <div className="section-margin" data-dsn-title="Lasts post">
+            {/*!Start Blog*/}
+            {/* <div className="section-margin" data-dsn-title="Lasts post">
                 <TitleSection
                     className={`container  align-items-center text-center`}
                     description={"Lasts post"}
@@ -228,11 +229,11 @@ function Home() {
                         className={`justify-content-between dsn-container mt-30`}
                     />
                 </BlogSwiper>
-            </div>
+            </div> */}
             {/*End Blog*/}
 
             {/*========== team Section ========== */}
-            <section className="container section-margin " data-dsn-title="Our Team">
+            {/* <section className="container section-margin " data-dsn-title="Our Team">
                 <TitleSection
                     className={` align-items-center text-center`}
                     description={"Our Team"}
@@ -241,11 +242,11 @@ function Home() {
                 </TitleSection>
 
                 <Team col={3} colTablet={2}/>
-            </section>
+            </section> */}
             {/*========== End team Section ========== */}
 
             {/*========== End brand-client Section ==========*/}
-            <section className="container section-margin" data-dsn-title="our clients">
+            {/* <section className="container section-margin" data-dsn-title="our clients">
                 <TitleSection
                     className={`align-items-center text-center`}
                     description={"Our clients"}
@@ -255,7 +256,7 @@ function Home() {
                 </TitleSection>
 
                 <BrandClient col={4} colTablet={3} colMobile={2} colGap={0} rowGap={0}/>
-            </section>
+            </section> */}
             {/*========== End brand-client Section ==========*/}
 
             {/*========== Next Page ==========*/}

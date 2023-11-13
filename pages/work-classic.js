@@ -30,9 +30,9 @@ function Work() {
 
             <div className="container section-margin">
                 <Portfolio stylePortfolio={"work-classic"}
-                           useFilter
-                           styleBox={"line"}
-                           col={3} colGap={50} rowGap={80}
+                    useFilter
+                    styleBox={"line"}
+                    col={3} colGap={50} rowGap={80}
                 />
             </div>
 
