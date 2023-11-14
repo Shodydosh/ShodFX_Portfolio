@@ -53,19 +53,19 @@ export interface SliderPortfolioProps {
 
 
 function SliderPortfolio({
-                             className,
-                             classNameSlider = "",
-                             typeBg,
-                             tag: Tag = "div",
-                             fullWidth,
-                             parallax,
-                             webgelOptions,
-                             metaData,
-                             alignControlNav = "between",
-                             optionSlider = {},
-                             data,
-                             ...restProps
-                         }: SliderPortfolioProps) {
+            className,
+            classNameSlider = "",
+            typeBg,
+            tag: Tag = "div",
+            fullWidth,
+            parallax,
+            webgelOptions,
+            metaData,
+            alignControlNav = "between",
+            optionSlider = {},
+            data,
+            ...restProps
+        }: SliderPortfolioProps) {
     const rootSlider = useRef(),
 
         [contentRef, setContentRef] = useArrayRef(),
@@ -208,15 +208,15 @@ function SliderPortfolio({
                             <SwiperSlide className="over-hidden" key={key} data-dsn-id={key}>
                                 {/*// @ts-ignore*/}
                                 <BgImage src={item.src} video={item.video}
-                                         alt={item.title}
-                                         overlay={item.overlay} height={"100%"} {...restProps.parallaxSwiper}/>
+                                        alt={item.title}
+                                        overlay={item.overlay} height={"100%"} {...restProps.parallaxSwiper}/>
                             </SwiperSlide>
                         )}
 
 
                         {restProps.webgel &&
                         <DsnWebgelDirction parent={rootSlider} data={dataProject}
-                                           direction={optionSlider.direction !== "vertical" ? "horizontal" : "vertical"}  {...webgelOptions}/>}
+                                        direction={optionSlider.direction !== "vertical" ? "horizontal" : "vertical"}  {...webgelOptions}/>}
 
 
                     </Swiper>
@@ -228,7 +228,7 @@ function SliderPortfolio({
                             activeClass={active} parent={rootSlider}/>
 
                 <ContentSlider data={dataProject} activeClass={active} ref={setContentRef} {...metaData}
-                               className={className}/>
+                            className={className}/>
 
 
             </div>

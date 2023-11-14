@@ -33,7 +33,7 @@ function Home() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>Home | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Home | Shod Nguyen</title>
             </Head>
             <SliderPortfolio
                 webgel
@@ -46,7 +46,7 @@ function Home() {
                 metaData={{hasSeparator: true}}
             />
             <HeroSection className="container section-margin container fill-right-container"
-                         data-dsn-title="How We Are"/>
+                         data-dsn-title="Who is Shod"/>
 
             {/*Start Service*/}
             <div className="container section-margin" data-dsn-title="Our Services">

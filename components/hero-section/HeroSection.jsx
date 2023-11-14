@@ -6,19 +6,21 @@ import { dsnCN } from "../../hooks/helper";
 import MoveTrigger from "../../animation/MoveTrigger";
 import FadeUpTrigger from "../../animation/FadeUpTrigger";
 
+
+
 const HeroContent = {
-  title: "Hello we, are <br/> Dsn Grid",
-  subtitle: `We’re a creative agency with an expertise in make custom websites.`,
-  description: `Founded in 2000, Dsn Grid has become one of the best Digital Agency in Themeforest. <span class="mb-10 d-block" ></span>
-     Blue money going forward, but deploy to production. First-order optimal strategies build on a culture of contribution and inclusion so those options`,
-  authorTitle: "SALVADOR DALI",
-  authorJob: "Digital Artisit",
-  experienceNumber: "16",
-  experienceDescription: `YEARS OF \nDIGITAL EXPERIENCE`,
-  heroImage: "/img/about-intro.jpg",
+  title: "Bonjour,<br/> je suis Shod",
+  subtitle: `Creativity is intelligence having fun`,
+  description: `Shod is a young individual striving to ensure the success of his aspirations. <span class="mb-10 d-block" ></span>
+    He harbors a deep passion for graphic design and music, aspiring to pursue a career as an artist and collaborate with other talented individuals in the field.`,
+  authorTitle: "SHOD NGUYEN",
+  authorJob: "Digital Artist",
+  experienceNumber: "3+",
+  experienceDescription: `YEARS OF \nGRAPHIC DESIGNER`,
+  heroImage: "/img/shodProfile/ava4.jpg",
   awards: [
-    { number: 37, description: `Business <br/> partner` },
-    { number: 19, description: `SUTISFIED <br/> CUSTOMERS` },
+    { number: 20, description: `years <br/> old` },
+    { number: 84, description: `Hanoi <br/> Vietnam` },
   ],
 };
 
