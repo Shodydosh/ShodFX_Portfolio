@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import brandLight from './logo.png';
-import brandDark from './logob.png';
+import brandDark from './logo.png';
 import Image from "next/image";
 
 const MainBrand = styled.div`
