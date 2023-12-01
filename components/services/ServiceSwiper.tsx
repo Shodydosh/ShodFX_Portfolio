@@ -3,7 +3,7 @@ import Service from "./Service";
 import {Pagination, Parallax, SwiperOptions} from "swiper";
 import {dataServiceProps} from "./ServiceItem";
 import {dsnCN} from "../../hooks/helper";
-import {backgroundColor, styleBox} from "../../hooks/EremiaType";
+import {backgroundColor, styleBox} from "../../hooks/SHODType";
 import {ParallaxOption} from "../../type/DsnSwiper";
 
 

@@ -35,7 +35,7 @@ function Personal() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>Personal  | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Personal  | SHOD Creative Portfolio Multi-Purpose</title>
             </Head>
         <HeaderFull
                 className="dsn-container"

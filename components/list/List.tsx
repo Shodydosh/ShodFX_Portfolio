@@ -1,6 +1,6 @@
 import DsnGrid, {DsnGridProps} from "../../layout/DsnGrid";
 import {dsnCN} from "../../hooks/helper";
-import {HeadingTag, HeadingTitle} from "../../hooks/EremiaType";
+import {HeadingTag, HeadingTitle} from "../../hooks/SHODType";
 import {CSSProperties} from "react";
 
 

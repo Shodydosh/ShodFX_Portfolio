@@ -73,7 +73,7 @@ function Corporate() {
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
 
             <Head>
-                <title>Corporate | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Corporate | SHOD Creative Portfolio Multi-Purpose</title>
             </Head>
             <SliderPortfolio webgel
                              fullWidth

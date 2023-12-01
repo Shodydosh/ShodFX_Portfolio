@@ -35,7 +35,7 @@ function Demo2() {
         <Layout  modelRight={{children:<ModalContact />,propsModal:{textBtn:"Contact"}}}>
 
             <Head>
-                <title>Creative Agency  | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Creative Agency  | SHOD Creative Portfolio Multi-Purpose</title>
             </Head>
 
         {/*========== Header Normal ========== */}

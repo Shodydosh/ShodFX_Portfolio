@@ -1,7 +1,7 @@
 import Link from "next/link";
 import {LinkProps} from "next/link";
 import {ReactNode, useEffect, useRef} from "react";
-import {transitionPage} from "./EremiaType";
+import {transitionPage} from "./SHODType";
 import {tdStart} from "./transition/transitionDefalut";
 import {gsap} from "gsap";
 import {useRouter} from "next/router";

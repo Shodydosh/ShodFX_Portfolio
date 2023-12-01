@@ -2,7 +2,7 @@ import {dsnCN} from "../../hooks/helper";
 
 import {LinkProps} from "next/dist/client/link";
 import DsnLink from "../../hooks/DsnLink";
-import {transitionPage} from "../../hooks/EremiaType";
+import {transitionPage} from "../../hooks/SHODType";
 
 
 interface ButtonProps {

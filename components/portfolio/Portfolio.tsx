@@ -5,7 +5,7 @@ import {getPortfolioData} from "../../data/portfolio";
 
 import {dsnCN} from "../../hooks/helper";
 import DsnGrid, {DsnGridProps} from "../../layout/DsnGrid";
-import {styleBox, stylePortfolio} from "../../hooks/EremiaType";
+import {styleBox, stylePortfolio} from "../../hooks/SHODType";
 import FilterPortfolio from "./FilterPortfolio";
 
 

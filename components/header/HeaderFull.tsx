@@ -8,7 +8,7 @@ import {ScrollTrigger} from 'gsap/dist/ScrollTrigger';
 import {dsnCN} from "../../hooks/helper";
 import BgImage from "../Image/BgImage";
 import MetaPost from "../meta/MetaPost";
-import {justifyContent} from "../../hooks/EremiaType";
+import {justifyContent} from "../../hooks/SHODType";
 
 
 interface HeaderFullProps {

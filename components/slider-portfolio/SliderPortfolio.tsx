@@ -13,7 +13,7 @@ import BgImage from "../Image/BgImage";
 import ContentSlider from "./ContentSlider";
 import ControlNav from "./ControlNav";
 import DsnWebgelDirction from './DsnWebgelDirction';
-import {dataProjectProps, justifyContent} from "../../hooks/EremiaType";
+import {dataProjectProps, justifyContent} from "../../hooks/SHODType";
 import {SwiperProps} from "swiper/react/swiper-react";
 
 

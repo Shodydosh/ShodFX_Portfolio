@@ -1,6 +1,6 @@
 import {dsnCN} from "../../hooks/helper";
 import BgDot from "./BgDot";
-import {backgroundColor} from "../../hooks/EremiaType";
+import {backgroundColor} from "../../hooks/SHODType";
 
 
 interface HeaderNormalProps {

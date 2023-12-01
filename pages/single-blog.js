@@ -25,7 +25,7 @@ function Home() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>Single Blog  | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Single Blog  | SHOD Creative Portfolio Multi-Purpose</title>
             </Head>
 
             {/*========== Header Normal ========== */}

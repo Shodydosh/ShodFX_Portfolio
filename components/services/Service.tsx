@@ -2,7 +2,7 @@ import {ReactNode, useEffect, useRef} from 'react'
 import {dsnCN} from "../../hooks/helper";
 import ServiceItem, {dataServiceProps} from "./ServiceItem";
 import DsnGrid, {DsnGridProps} from "../../layout/DsnGrid";
-import {backgroundColor, styleBox} from "../../hooks/EremiaType";
+import {backgroundColor, styleBox} from "../../hooks/SHODType";
 import {SwiperSlide} from "swiper/react";
 import {ParallaxOption} from "../../type/DsnSwiper";
 

@@ -130,7 +130,7 @@ const menuContent = [
     {name: "Contact", href: "/contact"},
 ];
 
-const EremiaMenu = ({hamburger}) => {
+const SHODMenu = ({hamburger}) => {
 
     let $key = 0;
     const getSubMenu = (items) => {
@@ -147,7 +147,7 @@ const EremiaMenu = ({hamburger}) => {
 
     return (
         <Navbar hamburger={hamburger}>
-            <Navbar.Brand href={"/"} transitionPage={{title: "Eremia"}}>
+            <Navbar.Brand href={"/"} transitionPage={{title: "SHOD"}}>
                 <Logo width="75px" height="auto"/>
             </Navbar.Brand>
 
@@ -162,9 +162,9 @@ const EremiaMenu = ({hamburger}) => {
 
 }
 
-EremiaMenu.defaultProps = {
+SHODMenu.defaultProps = {
     hamburger: false
 }
 
 
-export default EremiaMenu;
+export default SHODMenu;

@@ -9,7 +9,7 @@ import TitleCover from "../heading/TitleCover";
 
 
 const heroData = {
-    titleCover: `Eremia`,
+    titleCover: `SHOD`,
     title: `Angelo Walking`,
     descTitle: `Project Manager`,
     subtitle: `Creative Web & App Developer`,

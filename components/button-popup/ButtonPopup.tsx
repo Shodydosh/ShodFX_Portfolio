@@ -1,7 +1,7 @@
 import  {useEffect} from 'react';
 import {Fancybox as NativeFancybox} from "@fancyapps/ui";
 import {dsnCN} from "../../hooks/helper";
-import {NativeFancyboxOption} from "../../hooks/EremiaType";
+import {NativeFancyboxOption} from "../../hooks/SHODType";
 
 
 export interface ButtonPopupProps {

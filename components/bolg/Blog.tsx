@@ -1,7 +1,7 @@
 import BlogItem from './BlogItem';
 import {getBlogData} from "../../data/blog";
 import {dsnCN} from "../../hooks/helper";
-import {MetaData} from "../../hooks/EremiaType";
+import {MetaData} from "../../hooks/SHODType";
 import DsnGrid, {DsnGridProps} from "../../layout/DsnGrid";
 
 

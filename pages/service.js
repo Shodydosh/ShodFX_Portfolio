@@ -29,7 +29,7 @@ function Service() {
     return (
         <Layout  modelRight={{children:<ModalContact />,propsModal:{textBtn:"Contact"}}}>
             <Head>
-                <title>Service  | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Service  | SHOD Creative Portfolio Multi-Purpose</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal backgroundColor="background-section" className="text-center">

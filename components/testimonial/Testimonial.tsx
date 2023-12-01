@@ -7,7 +7,7 @@ import {dsnCN} from "../../hooks/helper";
 import Image from 'next/image';
 import {ParallaxOption} from "../../type/DsnSwiper";
 import {getTestimonialData} from '../../data/testimonial';
-import {backgroundColor, styleBox} from "../../hooks/EremiaType";
+import {backgroundColor, styleBox} from "../../hooks/SHODType";
 
 
 interface TestimonialProps extends SwiperOptions {

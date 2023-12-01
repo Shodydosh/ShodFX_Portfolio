@@ -14,7 +14,7 @@ function Work() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>Stories | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Stories | SHOD Creative Portfolio Multi-Purpose</title>
             </Head>
         {/*========== Header Normal ========== */}
             <HeaderNormal backgroundColor="background-section" className="text-center">

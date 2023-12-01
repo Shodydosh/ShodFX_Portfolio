@@ -33,7 +33,7 @@ function About() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>About Us | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>About Us | SHOD Creative Portfolio Multi-Purpose</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal className="">
@@ -97,7 +97,7 @@ function About() {
             <section className="section-padding background-section" data-dsn-title="Services">
                 <div className="container">
                     <TitleSection description="Our Services">
-                    I specialize in bringing client visions  <br/> into tangible, realized outcomes.
+                        I specialize in bringing client visions  <br/> into tangible, realized outcomes.
                     </TitleSection>
                     <Service.grid className="icon-left" styleBox="list" data={getServiceData().slice(0, 3)}/>
                 </div>

@@ -8,7 +8,7 @@ import BlogItem from './BlogItem';
 import {getBlogData} from "../../data/blog";
 import {dsnCN} from "../../hooks/helper";
 import {ParallaxOption} from "../../type/DsnSwiper";
-import {MetaData} from "../../hooks/EremiaType";
+import {MetaData} from "../../hooks/SHODType";
 import {ReactChild} from "react";
 
 

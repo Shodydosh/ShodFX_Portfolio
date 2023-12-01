@@ -1,4 +1,4 @@
-import {transitionPage} from "../EremiaType";
+import {transitionPage} from "../SHODType";
 import {gsap} from "gsap";
 
 
@@ -11,7 +11,7 @@ export function tdStart(transitionPage: transitionPage): [HTMLDivElement, gsap.c
     domTransition.className = "dsn-ajax-loader dsn-ajax-normal bg-load background-section d-flex flex-column justify-content-between text-center";
     domTransition.innerHTML = `
             ${svg("top")}
-            <h6 class="d-flex justify-content-center title text-uppercase">${typeof transitionPage === "object" ? transitionPage?.title : "Eremia"}</h6>
+            <h6 class="d-flex justify-content-center title text-uppercase">${typeof transitionPage === "object" ? transitionPage?.title : "SHOD"}</h6>
             ${svg("bottom")}
             `;
 

@@ -7,7 +7,7 @@ import PortfolioItem from './PortfolioItem';
 import {getPortfolioData} from "../../data/portfolio";
 import {dsnCN} from "../../hooks/helper";
 import {ParallaxOption} from "../../type/DsnSwiper";
-import {styleBox, stylePortfolio} from "../../hooks/EremiaType";
+import {styleBox, stylePortfolio} from "../../hooks/SHODType";
 
 
 

@@ -10,7 +10,7 @@ function Home() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>Portfolio | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Portfolio | SHOD Creative Portfolio Multi-Purpose</title>
             </Head>
             <div className="p-relative d-flex align-items-center" style={{height:"100vh"}}>
                 <PortfolioSwiper grabCursor desktop={{spaceBetween: 0, slidesPerView: 2}}

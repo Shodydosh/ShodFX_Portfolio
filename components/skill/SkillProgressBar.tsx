@@ -1,7 +1,7 @@
 import {dsnCN} from "../../hooks/helper";
 import {useEffect, useRef, useState} from "react";
 import {gsap} from "gsap";
-import {backgroundColor} from "../../hooks/EremiaType";
+import {backgroundColor} from "../../hooks/SHODType";
 
 
 interface SkillProgressBarProps {

@@ -31,7 +31,7 @@ function Corporate() {
     return (
         <Layout  modelRight={{children:<ModalContact />,propsModal:{textBtn:"Contact"}}}>
             <Head>
-                <title>Corporate | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Corporate | SHOD Creative Portfolio Multi-Purpose</title>
             </Head>
         {/*========== Header Normal ========== */}
             <HeaderNormal className="align-content-center text-center">

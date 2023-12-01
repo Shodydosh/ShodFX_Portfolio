@@ -37,7 +37,7 @@ function Personal() {
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
 
             <Head>
-                <title>Personal  | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Personal  | SHOD Creative Portfolio Multi-Purpose</title>
             </Head>
 
             <HeaderFull className="container" heroContent={headerContent} skin={"half-personal"} overlay={4}>
