@@ -49,12 +49,12 @@ function Home() {
                          data-dsn-title="Who is Shod"/>
 
             {/*Start Service*/}
-            <div className="container section-margin" data-dsn-title="Our Services">
+            <div className="container section-margin" data-dsn-title="My Services">
                 <TitleSection
                     className="align-items-center text-center"
-                    description={"Our Services"}
+                    description={"My Services"}
                 >
-                    We are delivering beautiful <br/> digital products for you.
+                    I specialize in bringing client visions  <br/> into tangible, realized outcomes.
                 </TitleSection>
                 <ServiceOne/>
             </div>

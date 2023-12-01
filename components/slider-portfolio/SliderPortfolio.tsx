@@ -4,7 +4,7 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import {Controller, Parallax} from "swiper";
 import {dsnCN} from "../../hooks/helper";
 import {useArrayRef} from "../../hooks/dsnHooks";
-import {getPortfolioData} from '../../data/portfolio';
+import {getPortfolioData} from '../../data/portfolio_info';
 import dsnSplitting from '../../hooks/spltting';
 import {gsap} from 'gsap';
 

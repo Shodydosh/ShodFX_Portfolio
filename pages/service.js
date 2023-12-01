@@ -34,10 +34,10 @@ function Service() {
             {/*========== Header Normal ========== */}
             <HeaderNormal backgroundColor="background-section" className="text-center">
                 <p className="subtitle p-relative line-shape   mb-30">
-                    <span className="pl-10 pr-10 background-main">OUR SERVICES</span>
+                    <span className="pl-10 pr-10 background-main">MY SERVICES</span>
                 </p>
                 <h1 className="title">
-                    We are delivering beautiful <br/> digital products for you.
+                I specialize in bringing client visions  <br/> into tangible, realized outcomes.
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}

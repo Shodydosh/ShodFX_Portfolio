@@ -3,20 +3,20 @@
 const data = [
     {
         id: 1,
-        title: "Shod Nguyen",
-        slug: 'shod-nguyen',
-        category: ['Graphic designer', 'Artist'],
-        description: 'Art offers us another language when other languages fail.',
-        src: '/img/thumbnail/1.png',
+        title: "DA/MD - Gọi về quá khứ ( Offical visualizer)",
+        slug: 'goi-ve-qua-khu',
+        category: ['3D environment', 'Graphic design', 'Visualizer'],
+        description: 'A tranquil atmosphere for DA/MD new single',
+        src: '/img/old_projects/gvqk.jpg',
         overlay: 6
     },
     {
         id: 2,
-        title: "Tung Nguyen Minh",
-        slug: 'tung-nguyen',
-        category: ['Graphic designer', 'Artist'],
-        src: '/img/thumbnail/3.jpg',
-        description: 'A young kid tryin to make sure his plans work.',
+        title: "EREN - NATA w/ Taki ( prod shi ) I OFFICIAL AUDIO",
+        slug: 'nata',
+        category: ['Graphic designer', '3D modelling', 'Visualizer'],
+        src: '/img/old_projects/nata.jpg',
+        description: '',
         overlay: 6,
 
     },

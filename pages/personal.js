@@ -99,7 +99,7 @@ function Personal() {
 
             {/*Start Service*/}
             <div className="container section-margin" data-dsn-title="My Services">
-                <TitleSection className="align-items-center text-center" description={"{ Our Services }"}>
+                <TitleSection className="align-items-center text-center" description={"{ My Services }"}>
                     We are delivering beautiful <br/> digital products for
                     you.
                 </TitleSection>

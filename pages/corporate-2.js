@@ -89,9 +89,9 @@ function Corporate() {
             {/*<!-- ========== End about section ========== */}
 
             {/*Start Service*/}
-            <div className="container section-margin" data-dsn-title="our Services">
-                <TitleSection description={"WHY CHOOSE US?"}>
-                    We are delivering beautiful <br/> digital products for you.
+            <div className="container section-margin" data-dsn-title="My Services">
+                <TitleSection description={"WHY CHOOSE SHOD?"}>
+                I specialize in bringing client visions  <br/> into tangible, realized outcomes.
                 </TitleSection>
                 <ServiceSwiperOne/>
             </div>

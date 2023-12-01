@@ -97,7 +97,7 @@ function About() {
             <section className="section-padding background-section" data-dsn-title="Services">
                 <div className="container">
                     <TitleSection description="Our Services">
-                        We are delivering beautiful <br/> digital products for you.
+                    I specialize in bringing client visions  <br/> into tangible, realized outcomes.
                     </TitleSection>
                     <Service.grid className="icon-left" styleBox="list" data={getServiceData().slice(0, 3)}/>
                 </div>
