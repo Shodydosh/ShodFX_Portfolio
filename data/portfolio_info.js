@@ -24,7 +24,7 @@ const data = [
         id: 3,
         title: "Shod Nguyen",
         slug: 'shod-nguyen',
-        src: '/img/thumbnail/2.jpg',
+        src: '/img/thumbnail/spring2.jpg',
         category: ['Visual'],
         description: 'Art offers us another language when other languages fail.',
         overlay: 6

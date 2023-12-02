@@ -62,27 +62,25 @@ function Home() {
 
             {/*Start Box Info Move Content*/}
             <div className="p-relative section-margin">
-                <ParallaxImage src="/img/project/project3/2.jpg" overlay={2} alt={""}/>
+                <ParallaxImage src="/img/thumbnail/black.jpg" overlay={2} alt={""}/>
                 <MoveBox tablet={false}>
                     <TitleSection
                         className={`align-items-start mb-30`}
-                        description={"Build perfect websites"}
+                        description={"SHOD NGUYEN"}
                         defaultSpace={false}
                     >
-                        Unlimited power
+                        My works
                     </TitleSection>
 
                     <p className="mb-10">
-                        Most of our writings have centered on implementing strategies for
-                        business units, with their unique
+                        I believe in a collaborative partnership, where your insights and feedback play a crucial role in shaping the final outcome. 
                     </p>
                     <p className="mb-30">
-                        geeza arse it’s your round grub sloshed burke, my good sir chancer
-                        he legged it he lost his bottle pear shaped bugger all mate
+                        Your satisfaction is my priority, and I am committed to refining the design until it aligns seamlessly with your vision.
                     </p>
 
-                    <Button href={"work-classic-2-col"} className={"image-zoom"} data-dsn="parallax" transitionPage={{title:"Our Portfolio"}}>
-                        More Projects <span>⟶</span>
+                    <Button href={"work-classic-2-col"} className={"image-zoom"} data-dsn="parallax" transitionPage={{title:"My works"}}>
+                        My Projects <span>⟶</span>
                     </Button>
 
                     <p className={`sm-p mt-15 theme-color`}>
@@ -94,10 +92,10 @@ function Home() {
 
 
             {/*Start Portfolio*/}
-            <div className="section-margin" data-dsn-title="Our Portfolio">
+            <div className="section-margin" data-dsn-title="My Portfolio">
                 <TitleSection
                     className={`container align-items-center text-center`}
-                    description={"Our Works"}
+                    description={"My Works"}
                 >
                     Creative Portfolio <br/>
                     Designs
@@ -199,38 +197,6 @@ function Home() {
                 </DsnGrid>
             </section> */}
             {/*End box vertical Section*/}
-
-            {/*!Start Blog*/}
-            {/* <div className="section-margin" data-dsn-title="Lasts post">
-                <TitleSection
-                    className={`container  align-items-center text-center`}
-                    description={"Lasts post"}
-                >
-                    Latest And Greatest <br/>
-                    Post
-                </TitleSection>
-                <BlogSwiper
-                    className="dsn-container"
-                    grabCursor
-                    desktop={{spaceBetween: 50, slidesPerView: 1.5}}
-                    tablet={{spaceBetween: 30, slidesPerView: 1.3}}
-                    mobile={{spaceBetween: 0, slidesPerView: 1}}
-                    centeredSlides
-                    loop
-                    blur
-                    parallax
-                    speed={1200}
-                    watchSlidesProgress
-                    loopedSlides={2}
-                    parallaxImage={{"data-swiper-parallax-scale": "0.85"}}
-                    parallaxContent={{"data-swiper-parallax-opacity": "0.5"}}
-                >
-                    <SwiperPagination
-                        className={`justify-content-between dsn-container mt-30`}
-                    />
-                </BlogSwiper>
-            </div> */}
-            {/*End Blog*/}
 
             {/*========== team Section ========== */}
             {/* <section className="container section-margin " data-dsn-title="Our Team">

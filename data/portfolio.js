@@ -19,16 +19,7 @@ const data = [
         description: '',
         overlay: 6,
 
-    },
-    {
-        id: 3,
-        title: "Shod Nguyen",
-        slug: 'shod-nguyen',
-        src: '/img/thumbnail/2.jpg',
-        category: ['Visual'],
-        description: 'Art offers us another language when other languages fail.',
-        overlay: 6
-    },
+    }
 ]
 
 export const getPortfolioData = () => data;
