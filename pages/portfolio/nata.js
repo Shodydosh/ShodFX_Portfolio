@@ -8,11 +8,15 @@ import Layout from "../../layout/Layout";
 import {getPortfolioItem} from "../../data/portfolio";
 import HeaderFull from "../../components/header/HeaderFull";
 import NextProject from "../../components/next/NextProject";
+import Head from "next/head";
 
 function Project5(params) {
     const heroData = getPortfolioItem('nata');
     return (
         <Layout>
+            <Head>
+                <title>Portfolio | NATA </title>
+            </Head>
             <HeaderFull className="dsn-container"
                         alignItems="end"
                         heroContent={heroData} overlay={heroData.overlay}/>
@@ -50,9 +54,9 @@ function Project5(params) {
                             Mixing & Mastering: @vcc.teddyxz 
                         </p>
                         <div className="intro-project-cat mt-30">
-                            <span className="cat-item">automotive</span>
-                            <span className="cat-item">car</span>
-                            <span className="cat-item">Photography</span>
+                            <span className="cat-item">GRAPHIC DESIGNER</span>
+                            <span className="cat-item">3D MODELLING</span>
+                            <span className="cat-item">VISUALIZER</span>
                         </div>
                         <ButtonProject
                             href="https://www.youtube.com/watch?v=YtfoWl_OxLY"

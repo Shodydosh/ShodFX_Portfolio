@@ -47,16 +47,20 @@ function Service() {
                 <div className="box-left">
                     <TitleSection defaultSpace={false} description="What We Do"/>
                     <h4 className="mt-25">
-                        The good writers touch life often. The mediocre ones run a quick hand
-                        over her. The bad ones rape her and leave her for the flies.
+                    I believe in a collaborative partnership, where your insights and feedback play a crucial role in shaping the final outcome.
+                    <br/>
+Your satisfaction is my priority, and I am committed to refining the design until it aligns seamlessly with your vision.
                     </h4>
                 </div>
                 <div className="box-right">
                     <TitleSection defaultSpace={false} description="Our Services"/>
                     <ul className="mt-25">
-                        <li className="mb-15">Brand Consulting</li>
-                        <li className="mb-15">Marketing Management</li>
-                        <li className="mb-15">Customer Insight</li>
+                        <li className="mb-15">Environmental Design</li>
+                        <li className="mb-15">Digital Illustration</li>
+                        <li className="mb-15">3D Modeling</li>
+                        <li className="mb-15">T-shirt and Merchandise Design</li>
+                        <li className="mb-15">Concept Art</li>
+                        <li className="mb-15">Social Media Graphics</li>
                     </ul>
 
                 </div>
@@ -64,18 +68,18 @@ function Service() {
             {/*========== End About Section  ==========*/}
 
             {/*<!-- ========== facts-section ==========*/}
-            <div className="section-margin p-relative" >
+            {/* <div className="section-margin p-relative" >
                 <BgDot/>
                 <BgDot rightPosition/>
                 <div className="container">
                     <Facts className="text-center" col={4} colTablet={2}/>
                 </div>
-            </div>
+            </div> */}
             {/*<!-- ========== end facts-section ========== */}
 
 
             {/*<!-- ========== About section ========== */}
-            <div className="p-relative background-section section-padding" data-dsn-title="products better">
+            {/* <div className="p-relative background-section section-padding" data-dsn-title="products better">
                 <DsnGrid className="container" col={2} colTablet={1}>
                     <div className="p-relative box-left">
                         <div className="box-im h-100 ">
@@ -109,12 +113,12 @@ function Service() {
 
                     </div>
                 </DsnGrid>
-            </div>
+            </div> */}
             {/*<!-- ========== End About section ========== */}
 
 
             {/*<!-- ========== About section ========== */}
-            <div className="p-relative section-margin" data-dsn-title="BUSINESS CONSULTING">
+            {/* <div className="p-relative section-margin" data-dsn-title="BUSINESS CONSULTING">
                 <DsnGrid className="container" col={2} colTablet={1}>
                     <div className="p-relative box-left order-md-2">
                         <TitleCover>Diesel</TitleCover>
@@ -141,12 +145,12 @@ function Service() {
 
 
                 </DsnGrid>
-            </div>
+            </div> */}
             {/*<!-- ========== End About section ========== */}
 
 
             {/*<!-- ========== About section ========== */}
-            <div className="p-relative background-section section-padding" data-dsn-title="Project Manager">
+            {/* <div className="p-relative background-section section-padding" data-dsn-title="Project Manager">
 
                 <div className="container">
                     <TitleSection className="text-center" description="Most have theme" defaultSpace={false}>
@@ -192,17 +196,17 @@ function Service() {
                 </div>
 
 
-            </div>
+            </div> */}
             {/*<!-- ========== End About section ========== */}
 
             {/*========== team Section ========== */}
-            <section className="container section-margin " data-dsn-title="Best Team Ever">
+            {/* <section className="container section-margin " data-dsn-title="Best Team Ever">
                 <TitleSection description={"Our Team"}>
                     The Best Team Ever!
                 </TitleSection>
 
                 <Team data={getTeamData().slice(0,3)} className={"team-classic"} col={3} colTablet={2}/>
-            </section>
+            </section> */}
             {/*========== End team Section ========== */}
 
             {/*========== Next Page ==========*/}

@@ -83,9 +83,9 @@ function Home() {
                         My Projects <span>⟶</span>
                     </Button>
 
-                    <p className={`sm-p mt-15 theme-color`}>
+                    {/* <p className={`sm-p mt-15 theme-color`}>
                         NOTE : Some details are very important.
-                    </p>
+                    </p> */}
                 </MoveBox>
             </div>
             {/*End Box Info Move Content*/}

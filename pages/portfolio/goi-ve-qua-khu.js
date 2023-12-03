@@ -8,11 +8,15 @@ import Layout from "../../layout/Layout";
 import {getPortfolioItem} from "../../data/portfolio";
 import HeaderFull from "../../components/header/HeaderFull";
 import NextProject from "../../components/next/NextProject";
+import Head from "next/head";
 
 function Project5(params) {
     const heroData = getPortfolioItem('goi-ve-qua-khu');
     return (
         <Layout>
+            <Head>
+                <title>Portfolio | GOI VE QUA KHU </title>
+            </Head>
             <HeaderFull className="dsn-container"
                         alignItems="end"
                         heroContent={heroData} overlay={heroData.overlay}/>

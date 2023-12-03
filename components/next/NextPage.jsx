@@ -5,7 +5,7 @@ import BgDot from "../header/BgDot";
 const NextContent = {
     title: "Would you like more information \nor do you have a question?",
     subtitle: `Don't be weird.`,
-    buttonText: "Contact Us"
+    buttonText: "Contact Me"
 };
 
 function NextPage({className, ...restProps}) {

@@ -25,7 +25,7 @@ function MenuContent({className}) {
                     </p> */}
                     <p className="links over-hidden">
                         <a className="link-hover" href="mailto:info@dsngrid.com"
-                           data-hover-text="info@dsngrid.com">shodydosh@gmail.com</a>
+                           data-hover-text="shodydosh@gmail.com">shodydosh@gmail.com</a>
                     </p>
                 </div>
             </div>
